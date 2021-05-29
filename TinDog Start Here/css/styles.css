@@ -56,10 +56,14 @@ p {
   width: 60%;
   transform: rotate(25deg);
   padding-bottom: 50px;
+  position: absolute;
 }
 
 #features {
   padding: 8% 16%;
+  background-color: #FFFF;
+  position: relative;
+  z-index: 1;
 }
 .feature-box {
   text-align: center;
