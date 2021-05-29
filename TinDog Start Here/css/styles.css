@@ -55,8 +55,10 @@ p {
 .iphone {
   width: 60%;
   transform: rotate(25deg);
-  padding-bottom: 50px;
+  padding: 3% 7% 15%;
   position: absolute;
+  right: 20%;
+
 }
 
 #features {
@@ -112,4 +114,14 @@ middle-part of the web */
 #pricing {
   padding: 100px;
   text-align: center;
+}
+
+@media (max-width: 1005px) {
+  #title {
+    text-align: center;
+  }
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
 }
