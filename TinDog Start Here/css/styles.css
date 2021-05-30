@@ -111,6 +111,11 @@ middle-part of the web */
 .cl {
   padding: 2% 3%;
 }
+.hf {
+    line-height: 1.5;
+    font-size: 4rem;
+    font-family: "Montserrat-bold";
+}
 #pricing {
   padding: 100px;
   text-align: center;
@@ -124,4 +129,21 @@ middle-part of the web */
     position: static;
     transform: rotate(0);
   }
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+#cta {
+  background-color: #ff4c68;
+  padding: 8% 16%;
+  color: #fff;
+  text-align: center;
+
+
+}
+
+#footer {
+padding: 8% 16%;
+text-align: center;
 }
